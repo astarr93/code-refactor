@@ -13,6 +13,3 @@ Optional acomplishments:
 * Resequenced header tags to fall in sequential order throughout outline
 * Updated Title element to include company name (Horiseon)
 * Condensed and renamed CSS classes to match sematic HTML outlines
-
-
-
