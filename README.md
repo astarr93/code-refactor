@@ -1,8 +1,8 @@
 # Horiseon | Company Website Refactor
 
-> Horiseon, a marketing agnecy, requested that the corporate webpage code be refactored to follow accessibiliy standards.
+> Horiseon, a marketing agency, requested that the corporate webpage code be refactored to follow accessibiliy standards.
 
-To acheive this, I was given their existing webpage and added to existing HTML code to include:
+To achieve this, I was given their existing webpage and added to existing HTML code to include:
 
 * Alt tags to all applicable image elements
 
