@@ -4,9 +4,13 @@
     margin: 0;
 }
 
-body {
+/* Body */
+
+main {
     background-color: #d9dcd6;
 }
+
+/* Header */
 
 header {
     padding: 20px;
@@ -15,14 +19,18 @@ header {
     color: #ffffff;
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
+/* Background image */
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-header h1 .seo {
-    color: #d9dcd6;
-}
+/*Nav bar classes */
 
 nav {
     padding-top: 15px;
@@ -41,6 +49,31 @@ nav ul li {
     margin-left: 25px;
 }
 
+/*h, a, and p tag classes */
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+h1 .seo {
+    color: #d9dcd6;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,14 +83,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
+/* floats */
 
 .float-left {
     float: left;
@@ -69,11 +95,7 @@ p {
     margin-left: 25px;
 }
 
-section {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/* Aside and Figure Classes */
 
 aside {
     margin-right: 20px;
@@ -84,22 +106,25 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefits {
-    margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
+figure {
+    margin-bottom: 32px;
 }
 
-.benefits img {
+figure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+/* Section and Article Classes */
+
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 article {
@@ -115,18 +140,11 @@ article img {
     max-height: 200px;
 }
 
-article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Footer Class */
 
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
